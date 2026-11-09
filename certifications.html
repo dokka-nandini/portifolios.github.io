@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certifications — Dokka Nandini</title>
+  <meta name="description" content="Certifications from IBM, Google, Vanderbilt University, Microsoft and Harvard, plus achievements.">
+  <meta name="author" content="Dokka Nandini">
+  <meta name="theme-color" content="#07080b">
+  <link rel="canonical" href="https://dokka-nandini.github.io/certifications.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dokka Nandini">
+  <meta property="og:title" content="Certifications — Dokka Nandini">
+  <meta property="og:description" content="Certifications from IBM, Google, Vanderbilt University, Microsoft and Harvard, plus achievements.">
+  <meta property="og:url" content="https://dokka-nandini.github.io/certifications.html">
+  <meta property="og:image" content="https://dokka-nandini.github.io/assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <script>(function () { try { var t = localStorage.getItem('dn-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {} })();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="certifications">
+  <main id="main">
+    <section class="page-head">
+      <div class="ambient" aria-hidden="true"><div class="ambient__blob ambient__blob--a"></div><div class="ambient__blob ambient__blob--b"></div><div class="ambient__grid"></div></div>
+      <div class="container">
+        <span class="eyebrow" data-rise><span class="eyebrow__dot"></span>Certifications</span>
+        <h1 class="page-head__title" data-rise style="--d:.08s">Always <em class="serif grad-text">learning.</em></h1>
+        <p class="page-head__sub" data-rise style="--d:.16s">Professional certificates and specializations. Select one to preview it, or open the verification link.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-label="Certificates">
+      <div class="container"><div class="cert-grid" id="cert-grid"></div></div>
+    </section>
+
+    <section class="section" aria-labelledby="achv-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <span class="section-index">Recognition</span>
+          <h2 class="section-title" id="achv-title">Achievements</h2>
+        </header>
+        <div id="cert-achv"></div>
+      </div>
+    </section>
+
+    <dialog class="cert-dialog" id="cert-dialog" aria-labelledby="cert-dialog-title">
+      <div class="cert-dialog__inner">
+        <button class="icon-btn cert-dialog__close" type="button" aria-label="Close preview" data-close><svg class="i"><use href="#i-x"/></svg></button>
+        <div class="cert-dialog__media"><img alt="" id="cert-dialog-img"></div>
+        <div class="cert-dialog__body">
+          <span class="eyebrow" id="cert-dialog-issuer"></span>
+          <h3 id="cert-dialog-title"></h3>
+          <a class="btn btn--primary" id="cert-dialog-link" target="_blank" rel="noopener">Verify credential <svg class="i"><use href="#i-arrow-up-right"/></svg></a>
+        </div>
+      </div>
+    </dialog>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/pages.js" defer></script>
+</body>
+</html>

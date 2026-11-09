@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dokka-nandini.github.io/sitemap.xml

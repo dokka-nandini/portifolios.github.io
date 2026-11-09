@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Dokka Nandini</title>
+  <meta name="description" content="Full stack, frontend and AI/ML projects by Dokka Nandini, including a Job Portal, a Visual AI Pipeline Builder and the Aroma Hotel website.">
+  <meta name="author" content="Dokka Nandini">
+  <meta name="theme-color" content="#07080b">
+  <link rel="canonical" href="https://dokka-nandini.github.io/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dokka Nandini">
+  <meta property="og:title" content="Projects — Dokka Nandini">
+  <meta property="og:description" content="Full stack, frontend and AI/ML projects by Dokka Nandini, including a Job Portal, a Visual AI Pipeline Builder and the Aroma Hotel website.">
+  <meta property="og:url" content="https://dokka-nandini.github.io/projects.html">
+  <meta property="og:image" content="https://dokka-nandini.github.io/assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <script>(function () { try { var t = localStorage.getItem('dn-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {} })();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="projects">
+  <main id="main">
+    <section class="page-head">
+      <div class="ambient" aria-hidden="true"><div class="ambient__blob ambient__blob--a"></div><div class="ambient__blob ambient__blob--b"></div><div class="ambient__grid"></div></div>
+      <div class="container">
+        <span class="eyebrow" data-rise><span class="eyebrow__dot"></span>Projects</span>
+        <h1 class="page-head__title" data-rise style="--d:.08s">Things I have <em class="serif grad-text">built.</em></h1>
+        <p class="page-head__sub" data-rise style="--d:.16s">Full stack applications, frontend experiences and machine learning projects. Select one for the full case study.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-label="All projects">
+      <div class="container">
+        <div class="section-head section-head--row" style="margin-bottom:32px">
+          <div class="filters" role="tablist" aria-label="Filter projects">
+            <button class="filter is-active" type="button" role="tab" aria-selected="true" data-filter="all">All</button>
+            <button class="filter" type="button" role="tab" aria-selected="false" data-filter="fullstack">Full Stack</button>
+            <button class="filter" type="button" role="tab" aria-selected="false" data-filter="frontend">Frontend</button>
+            <button class="filter" type="button" role="tab" aria-selected="false" data-filter="ai">AI &amp; ML</button>
+          </div>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/pages.js" defer></script>
+</body>
+</html>
